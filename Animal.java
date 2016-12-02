@@ -3,7 +3,7 @@ package polimorfizm;
 /**
  * Created by Martwq34 on 29.11.2016.
  */
-public class Animal extends JavaApplication1 {
+public abstract class Animal extends JavaApplication1 {
     private String name;
     private String weight;
     private String growth;
@@ -61,6 +61,5 @@ public class Animal extends JavaApplication1 {
     public void makeSomeDrink() { // напоить
         System.out.println("ковть-ковть");
     }
-
 
 }
