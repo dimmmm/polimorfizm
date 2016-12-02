@@ -8,16 +8,6 @@ import java.util.Scanner;
  */
 public class JavaApplication1 {
     public static void main(String[] args) {
-        /*Dog d = new Dog();
-        d.makeSomeNoise();
-
-        Cat c = new Cat();
-        c.makeSomeNoise();
-
-        Animal a = new Animal();
-        a.makeSomeNoise();
-        a = new Dog();
-        a.makeSomeNoise();*/
         Animal ar[] = new Animal[10];
         ar[0] = new Cat();
         ar[1] = new Dog();
